@@ -1,0 +1,31 @@
+html {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #111;
+    border-radius: 80px;
+}
